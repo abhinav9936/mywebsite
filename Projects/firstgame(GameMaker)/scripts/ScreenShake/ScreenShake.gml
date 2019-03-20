@@ -1,0 +1,12 @@
+/// add screen shake magnitudes
+//sets the strenght of the shake
+
+with (oCamera)
+{
+	if (argument0 > shake_remain)
+	{
+		shake_magnitude = argument0;
+		shake_remain = argument0;
+		shake_lenght = argument1;
+	}
+}
